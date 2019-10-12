@@ -1,0 +1,10 @@
+{
+    "DataMixInformationParser": {
+        "access_url": "https://datamix.co.jp/news/",
+        "last_article_urls": [
+            "https://datamix.co.jp/news/20191009/",
+            "https://datamix.co.jp/news/3551/"
+        ],
+        "message_template": "データミックスのお知らせが更新されました [{0[title]}] {0[url]}"
+    }
+}
