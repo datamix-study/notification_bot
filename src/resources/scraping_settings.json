@@ -3,7 +3,6 @@
         "access_url": "https://datamix.co.jp/news/",
         "last_article_urls": [
             "https://datamix.co.jp/news/20191010/",
-            "https://datamix.co.jp/news/20191009/",
             "https://datamix.co.jp/news/3551/",
             "https://datamix.co.jp/news/20191002/",
             "https://datamix.co.jp/news/20190919/",
@@ -11,7 +10,8 @@
             "https://datamix.co.jp/news/20190830/",
             "https://datamix.co.jp/news/20190409/",
             "https://datamix.co.jp/news/20190403/",
-            "https://datamix.co.jp/news/20190312/"
+            "https://datamix.co.jp/news/20190312/",
+            "https://datamix.co.jp/news/20190226/"
         ],
         "message_template": "データミックスのお知らせが更新されました [{0[title]}] {0[url]}"
     },
@@ -44,10 +44,7 @@
     },
     "MeetupApiParser": {
         "access_url": "https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20",
-        "last_article_urls": [
-            "https://www.meetup.com/datamix/events/265235011/",
-            "https://www.meetup.com/datamix/events/265234301/"
-        ],
+        "last_article_urls": [],
         "message_template": "meetupにイベントが追加されました [{0[title]}] {0[url]}"
     }
 }

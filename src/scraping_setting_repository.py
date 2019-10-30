@@ -88,7 +88,7 @@ class GoogleSheetsScrapingSettingRepository(AbstractScrapingSettingRepository):
 
     def _create_settings(self, row_number):
         urls_str = self._read_cell(self._COLUMN_LAST_ARTICLE_URLS_, row_number)
-        urls = [url.strip() for url in urls_str.split(',')]
+        urls = [url.strip() for url in urls_str.split(',') if url.strip()]
         return ScrapingSetting(self._read_cell(self._COLUMN_PARSER_NAME, row_number),
                                self._read_cell(self._COLUMN_ACCESS_URL, row_number),
                                urls,
