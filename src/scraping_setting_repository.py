@@ -65,6 +65,8 @@ class GoogleSheetsScrapingSettingRepository(AbstractScrapingSettingRepository):
 
     _ROW_FIRST_SETTING_VALUE = 2
 
+    _client = None
+
     def get_settings(self) -> List[ScrapingSetting]:
         settings = []
         for row_number in range(self._ROW_FIRST_SETTING_VALUE, self._open_worksheet().row_count):
@@ -94,15 +96,15 @@ class GoogleSheetsScrapingSettingRepository(AbstractScrapingSettingRepository):
                                urls,
                                self._read_cell(self._COLUMN_MESSAGE_TEMPLATE, row_number))
 
-    @staticmethod
-    def _open_worksheet():
+    def _open_worksheet(self):
         config = config_util.get_config()['google_sheets']
-        scopes = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-        credentials = ServiceAccountCredentials.from_json_keyfile_name(
-            config_util.to_resource_file_abs_path(config['key_json_file_name']), scopes)
-        client = gspread.authorize(credentials)
+        if not self._client:
+            scopes = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+            credentials = ServiceAccountCredentials.from_json_keyfile_name(
+                config_util.to_resource_file_abs_path(config['key_json_file_name']), scopes)
+            self._client = gspread.authorize(credentials)
 
-        return client.open_by_key(config['spreadsheet_key']).worksheet(config['sheet_name'])
+        return self._client.open_by_key(config['spreadsheet_key']).worksheet(config['sheet_name'])
 
 
 class ScrapingSettingRepositoryError(Exception):
