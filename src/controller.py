@@ -24,8 +24,10 @@ class ExecuteController:
             # 前回と今回でURL一覧に差異があるかを確認
             all_parse_results = self._fetch_parse_results(setting)
             if not all_parse_results:
-                # エラーなり通知なりしたほうが良いかも？
-                logging.warning('{} returns empty, may have failed to parse'.format(setting.parser_name))
+                message = '{} returns empty, may have failed to parse'.format(setting.parser_name)
+                logging.warning(message)
+                if setting.do_notify_empty and not self._is_dry_run:
+                    self._http_repository.post_slack(config_util.get_config()['slack']['error_post_url'], message)
             parse_result_urls = [result.url for result in all_parse_results]
             if set(parse_result_urls) == set(setting.last_article_urls):
                 continue

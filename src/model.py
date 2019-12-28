@@ -5,10 +5,15 @@ from typing import List
 class ScrapingSetting:
     # last_urlsは冗長感(複数の過去のURLも保持)があるかもしれないが、最新URL1件のみを保持して処理をしていたときの不具合対応で今の形となった
     # -> 最新URLに変更があった場合や最新の記事がページ先頭にない場合に対応が難しかった
-    def __init__(self, parser_name: str, access_url: str, last_article_urls: List[str], message_template: str):
+    def __init__(self, parser_name: str,
+                 access_url: str,
+                 last_article_urls: List[str],
+                 do_notify_empty: bool,
+                 message_template: str):
         self.parser_name = parser_name
         self.access_url = access_url
         self.last_article_urls = last_article_urls
+        self.do_notify_empty = do_notify_empty
         self.message_template = message_template
 
     def __str__(self):

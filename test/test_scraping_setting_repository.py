@@ -24,6 +24,7 @@ class TestJsonFileScrapingSettingRepository(unittest.TestCase):
         expected0 = ScrapingSetting('DataMixInformationParser',
                                     'https://datamix.co.jp/news/',
                                     ['https://datamix.co.jp/news/20191009/', 'https://datamix.co.jp/news/3551/'],
+                                    1,
                                     'データミックスのお知らせが更新されました [{0[title]}] {0[url]}')
         actual = self.sut.get_settings()
 

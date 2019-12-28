@@ -125,13 +125,13 @@ TODO: incoming_webhookを想定、手順を書くかリンクを貼るなどす�
     - ファイル名やシート名は任意(シート名は手順書ではdevシートとする)
     - A1セルに`parser_name`が入力される
 
-    | | **A** | **B** | **C** | **D** |
-    | --- | --- | --- | --- | --- |
-    | **1** | parser_name | access_url | last_article_urls | message_template |
-    | **2** | DataMixInformationParser | https://datamix.co.jp/news/ |  | データミックスのお知らせが更新されました [{0[title]}] {0[url]} |
-    | **3** | DataMixMediaParser | https://datamix.co.jp/news/ |  | データミックスのメディア掲載が更新されました [{0[title]}] {0[url]} |
-    | **4** | DataMixBlogParser | https://datamix.co.jp/blog/ |  | データミックスのブログが更新されました [{0[title]}] {0[url]} |
-    | **5** | MeetupApiParser | https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20 |  | meetupにイベントが追加されました [{0[title]}] {0[url]} |
+    | | **A** | **B** | **C** | **D** | **E** |
+    | --- | --- | --- | --- | --- | --- |
+    | **1** | parser_name | access_url | last_article_urls | do_notify_empty | message_template |
+    | **2** | DataMixInformationParser | https://datamix.co.jp/news/ |  | 1 | データミックスのお知らせが更新されました [{0[title]}] {0[url]} |
+    | **3** | DataMixMediaParser | https://datamix.co.jp/news/ |  | 1 | データミックスのメディア掲載が更新されました [{0[title]}] {0[url]} |
+    | **4** | DataMixBlogParser | https://datamix.co.jp/blog/ |  | 1 | データミックスのブログが更新されました [{0[title]}] {0[url]} |
+    | **5** | MeetupApiParser | https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20 |  | 0 | meetupにイベントが追加されました [{0[title]}] {0[url]} |
 1. 作成したシートをコピーして同ファイル内に計2つのシートを持つようにする
     - シート名は手順書ではprodシートとする → dev, prodシートがある
 1. シート右上の共有

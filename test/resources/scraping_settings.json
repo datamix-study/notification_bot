@@ -5,6 +5,7 @@
             "https://datamix.co.jp/news/20191009/",
             "https://datamix.co.jp/news/3551/"
         ],
+        "do_notify_empty": 1,
         "message_template": "データミックスのお知らせが更新されました [{0[title]}] {0[url]}"
     }
 }

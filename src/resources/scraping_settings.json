@@ -2,49 +2,55 @@
     "DataMixInformationParser": {
         "access_url": "https://datamix.co.jp/news/",
         "last_article_urls": [
+            "https://datamix.co.jp/news/20191202/",
+            "https://datamix.co.jp/news/%e3%83%87%e3%83%bc%e3%82%bf%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%82%b9%e7%84%a1%e6%96%99%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%99%ef%bc%882019/",
+            "https://datamix.co.jp/news/20191118-2/",
+            "https://datamix.co.jp/news/20191118/",
+            "https://datamix.co.jp/news/20191115nikkei/",
             "https://datamix.co.jp/news/20191010/",
             "https://datamix.co.jp/news/3551/",
             "https://datamix.co.jp/news/20191002/",
             "https://datamix.co.jp/news/20190919/",
-            "https://datamix.co.jp/news/20190910/",
-            "https://datamix.co.jp/news/20190830/",
-            "https://datamix.co.jp/news/20190409/",
-            "https://datamix.co.jp/news/20190403/",
-            "https://datamix.co.jp/news/20190312/",
-            "https://datamix.co.jp/news/20190226/"
+            "https://datamix.co.jp/news/20190910/"
         ],
+        "do_notify_empty": 1,
         "message_template": "データミックスのお知らせが更新されました [{0[title]}] {0[url]}"
     },
     "DataMixMediaParser": {
         "access_url": "https://datamix.co.jp/news/",
         "last_article_urls": [
+            "https://datamix.co.jp/news/20191117asahi/",
             "https://datamix.co.jp/news/20190320/",
             "https://datamix.co.jp/news/%e3%80%90%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e6%8e%b2%e8%bc%89%e3%80%91%e6%97%a5%e5%88%8a%e5%b7%a5%e6%a5%ad%e6%96%b0%e8%81%9e%e9%9b%bb%e5%ad%90%e7%89%88%e3%81%ab%e5%bc%8a%e7%a4%be%e5%a0%85%e7%94%b0/",
             "https://datamix.co.jp/news/%e3%80%90%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e6%8e%b2%e8%bc%89%e3%80%91%e3%83%9e%e3%82%a4%e3%83%8a%e3%83%93%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e3%81%ab%e5%bc%8a%e7%a4%be%e4%bb%a3%e8%a1%a8-%e5%a0%85/",
-            "https://datamix.co.jp/news/diamond_online/",
-            "https://datamix.co.jp/news/%e3%80%90%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%e6%8e%b2%e8%bc%89%e3%80%91%e3%83%8f%e3%83%bc%e3%83%90%e3%83%bc%e3%83%bb%e3%83%93%e3%82%b8%e3%83%8d%e3%82%b9%e3%83%bb%e3%82%aa%e3%83%b3%e3%83%a9%e3%82%a4/"
+            "https://datamix.co.jp/news/diamond_online/"
         ],
+        "do_notify_empty": 1,
         "message_template": "データミックスのメディア掲載が更新されました [{0[title]}] {0[url]}"
     },
     "DataMixBlogParser": {
         "access_url": "https://datamix.co.jp/blog/",
         "last_article_urls": [
+            "https://datamix.co.jp/20191129-2/",
+            "https://datamix.co.jp/20191127-2/",
+            "https://datamix.co.jp/blogpost20191118/",
             "https://datamix.co.jp/blogpost20191002/",
             "https://datamix.co.jp/blogpost20191002-2/",
             "https://datamix.co.jp/blogpost20190808-2/",
             "https://datamix.co.jp/blogpost20190725/",
             "https://datamix.co.jp/blogpost20190123-2/",
             "https://datamix.co.jp/blogpost20190423/",
-            "https://datamix.co.jp/blogpost20190320/",
-            "https://datamix.co.jp/blogpost20190221/",
-            "https://datamix.co.jp/20190201/",
-            "https://datamix.co.jp/blogpost20190123/"
+            "https://datamix.co.jp/blogpost20190320/"
         ],
+        "do_notify_empty": 1,
         "message_template": "データミックスのブログが更新されました [{0[title]}] {0[url]}"
     },
     "MeetupApiParser": {
         "access_url": "https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20",
-        "last_article_urls": [],
+        "last_article_urls": [
+            "https://www.meetup.com/datamix/events/267017287/"
+        ],
+        "do_notify_empty": 0,
         "message_template": "meetupにイベントが追加されました [{0[title]}] {0[url]}"
     }
 }

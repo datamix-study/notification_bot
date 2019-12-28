@@ -38,15 +38,21 @@ class JsonFileScrapingSettingRepository(AbstractScrapingSettingRepository):
 
     @staticmethod
     def _create_settings(parser_name, setting_dict):
+        do_notify_empty = setting_dict['do_notify_empty']
+        if do_notify_empty not in [0, 1]:
+            raise ScrapingSettingRepositoryError('{} does not match in the bool value'.format(do_notify_empty))
+
         return ScrapingSetting(parser_name.strip(),
                                setting_dict['access_url'].strip(),
                                [s.strip() for s in setting_dict['last_article_urls']],
+                               bool(do_notify_empty),
                                setting_dict['message_template'].strip())
 
     @staticmethod
     def _to_dict(setting):
         return {'access_url': setting.access_url,
                 'last_article_urls': setting.last_article_urls,
+                'do_notify_empty': int(setting.do_notify_empty),
                 'message_template': setting.message_template}
 
     @staticmethod
@@ -60,8 +66,9 @@ class JsonFileScrapingSettingRepository(AbstractScrapingSettingRepository):
 class GoogleSheetsScrapingSettingRepository(AbstractScrapingSettingRepository):
     _COLUMN_PARSER_NAME = 'A'
     _COLUMN_ACCESS_URL = 'B'
-    _COLUMN_LAST_ARTICLE_URLS_ = 'C'
-    _COLUMN_MESSAGE_TEMPLATE = 'D'
+    _COLUMN_LAST_ARTICLE_URLS = 'C'
+    _COLUMN_DO_NOTIFY_EMPTY = 'D'
+    _COLUMN_MESSAGE_TEMPLATE = 'E'
 
     _ROW_FIRST_SETTING_VALUE = 2
 
@@ -82,18 +89,22 @@ class GoogleSheetsScrapingSettingRepository(AbstractScrapingSettingRepository):
 
             if self._read_cell(self._COLUMN_PARSER_NAME, row_number) == parser_name:
                 urls_str = ",".join(new_article_urls)
-                self._open_worksheet().update_acell(self._COLUMN_LAST_ARTICLE_URLS_ + str(row_number), urls_str)
+                self._open_worksheet().update_acell(self._COLUMN_LAST_ARTICLE_URLS + str(row_number), urls_str)
                 break
 
     def _read_cell(self, column_label, row_number):
         return self._open_worksheet().acell(column_label + str(row_number)).value
 
     def _create_settings(self, row_number):
-        urls_str = self._read_cell(self._COLUMN_LAST_ARTICLE_URLS_, row_number)
+        urls_str = self._read_cell(self._COLUMN_LAST_ARTICLE_URLS, row_number)
         urls = [url.strip() for url in urls_str.split(',') if url.strip()]
+        do_notify_empty_str = self._read_cell(self._COLUMN_DO_NOTIFY_EMPTY, row_number)
+        if do_notify_empty_str not in ['0', '1']:  # シートからの取得時は文字列型
+            raise ScrapingSettingRepositoryError('{} does not match in the bool value'.format(do_notify_empty_str))
         return ScrapingSetting(self._read_cell(self._COLUMN_PARSER_NAME, row_number),
                                self._read_cell(self._COLUMN_ACCESS_URL, row_number),
                                urls,
+                               bool(int(do_notify_empty_str)),
                                self._read_cell(self._COLUMN_MESSAGE_TEMPLATE, row_number))
 
     def _open_worksheet(self):
