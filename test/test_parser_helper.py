@@ -1514,7 +1514,7 @@ DATAMIX_BLOG_SOURCE = """
   <link rel="stylesheet" href="https://datamix.co.jp/test/wp-content/themes/datamix-new/style.css">
 
   <script src="https://datamix.co.jp/test/wp-content/themes/datamix-new/js/modernizr-custom.js"></script>
-	<title>ブログ | データサイエンティストを目指すならデータミックス</title>
+	<title>採用情報 | データサイエンティストを目指すならデータミックス</title>
 	<!-- Facebook Pixel Code -->
 	<script>
 	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -1532,36 +1532,24 @@ DATAMIX_BLOG_SOURCE = """
 	<!-- End Facebook Pixel Code -->
   
 <!-- All in One SEO Pack 2.4.3 by Michael Torbert of Semper Fi Web Design[2736,2767] -->
-<meta name="description"  content="ブログ｜未経験から6ヶ月間で データサイエンティストを目指す社会人のためのデータサイエンティスト 育成専門の教育プログラム。IoT・ビッグデータ時代に必須のビジネス知識、統計学、機械学習、人工知能、データベース、プログラミング、SQLとBIツールのスキル獲得は株式会社データミックス。" />
+<meta name="description"  content="データサイエンティストや、スクール運営、バックオフィス、マーケティング担当など株式会社データミックスの採用情報。" />
 
-<meta name="keywords"  content="データサイエンティスト,資格,スキル,ビッグデータ,解析,分析,アナリスト,なるには,統計" />
-
-<link rel="canonical" href="https://datamix.co.jp/blog/" />
-<meta property="og:title" content="ブログ | データサイエンティストを目指すならデータミックス" />
+<link rel="canonical" href="https://datamix.co.jp/recruit/" />
+<meta property="og:title" content="採用情報 " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://datamix.co.jp/blog/" />
+<meta property="og:url" content="https://datamix.co.jp/recruit/" />
 <meta property="og:image" content="https://datamix.xsrv.jp/wp-content/uploads/2017/05/datamix_ogp.png" />
 <meta property="og:site_name" content="データサイエンティストを目指すならデータミックス" />
 <meta property="fb:app_id" content="128471241040393" />
-<meta property="og:description" content="ブログ｜未経験から6ヶ月間で データサイエンティストを目指す社会人のためのデータサイエンティスト 育成専門の教育プログラム。IoT・ビッグデータ時代に必須のビジネス知識、統計学、機械学習、人工知能、データベース、プログラミング、SQLとBIツールのスキル獲得は株式会社データミックス。" />
-<meta property="article:published_time" content="2017-04-10T16:30:45Z" />
-<meta property="article:modified_time" content="2017-04-20T16:57:52Z" />
+<meta property="og:description" content="データサイエンティストや、スクール運営、バックオフィス、マーケティング担当など株式会社データミックスの採用情報。" />
+<meta property="article:published_time" content="2017-10-18T10:59:14Z" />
+<meta property="article:modified_time" content="2019-12-25T17:10:07Z" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="ブログ | データサイエンティストを目指すならデータミックス" />
-<meta name="twitter:description" content="ブログ｜未経験から6ヶ月間で データサイエンティストを目指す社会人のためのデータサイエンティスト 育成専門の教育プログラム。IoT・ビッグデータ時代に必須のビジネス知識、統計学、機械学習、人工知能、データベース、プログラミング、SQLとBIツールのスキル獲得は株式会社データミックス。" />
+<meta name="twitter:title" content="採用情報 " />
+<meta name="twitter:description" content="データサイエンティストや、スクール運営、バックオフィス、マーケティング担当など株式会社データミックスの採用情報。" />
 <meta name="twitter:image" content="https://datamix.xsrv.jp/wp-content/uploads/2017/05/datamix_ogp.png" />
 <meta itemprop="image" content="https://datamix.xsrv.jp/wp-content/uploads/2017/05/datamix_ogp.png" />
-			<script type="text/javascript" >
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', 'UA-99319144-1', 'auto');
-				// Plugins
-				
-				ga('send', 'pageview');
-			</script>
-			<script async src="https://www.google-analytics.com/analytics.js"></script>
-			<!-- /all in one seo pack -->
-<link rel='dns-prefetch' href='//s0.wp.com' />
-<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<!-- /all in one seo pack -->
 <link rel='dns-prefetch' href='//s.w.org' />
 		<script type="text/javascript">
 			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/datamix.co.jp\/test\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.3"}};
@@ -1581,17 +1569,43 @@ img.emoji {
 	padding: 0 !important;
 }
 </style>
-<link rel='stylesheet' id='jetpack_css-css'  href='https://datamix.co.jp/test/wp-content/plugins/jetpack/css/jetpack.css?ver=6.8' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://datamix.co.jp/test/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='fvch-styles-css'  href='https://datamix.co.jp/test/wp-content/plugins/fv-code-highlighter/public/css/fvch-styles-dark.min.css?ver=1.2' type='text/css' media='all' />
+<link rel='stylesheet' id='__EPYT__style-css'  href='https://datamix.co.jp/test/wp-content/plugins/youtube-embed-plus/styles/ytprefs.min.css?ver=13.1.2.5' type='text/css' media='all' />
+<style id='__EPYT__style-inline-css' type='text/css'>
+
+                .epyt-gallery-thumb {
+                        width: 33.333%;
+                }
+                
+</style>
 <script type='text/javascript' src='https://datamix.co.jp/test/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='https://datamix.co.jp/test/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _EPYT_ = {"ajaxurl":"https:\/\/datamix.co.jp\/test\/wp-admin\/admin-ajax.php","security":"e521b7db4c","gallery_scrolloffset":"20","eppathtoscripts":"https:\/\/datamix.co.jp\/test\/wp-content\/plugins\/youtube-embed-plus\/scripts\/","eppath":"https:\/\/datamix.co.jp\/test\/wp-content\/plugins\/youtube-embed-plus\/","epresponsiveselector":"[\"iframe[src*='youtube.com']\",\"iframe[src*='youtube-nocookie.com']\",\"iframe[data-ep-src*='youtube.com']\",\"iframe[data-ep-src*='youtube-nocookie.com']\",\"iframe[data-ep-gallerysrc*='youtube.com']\"]","epdovol":"1","version":"13.1.2.5","evselector":"iframe.__youtube_prefs__[src], iframe[src*=\"youtube.com\/embed\/\"], iframe[src*=\"youtube-nocookie.com\/embed\/\"]","ajax_compat":"","ytapi_load":"light","stopMobileBuffer":"1","vi_active":"","vi_js_posttypes":[]};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/youtube-embed-plus/scripts/ytprefs.min.js?ver=13.1.2.5'></script>
 <link rel='https://api.w.org/' href='https://datamix.co.jp/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://datamix.co.jp/test/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://datamix.co.jp/test/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.9.3" />
-<link rel='shortlink' href='https://wp.me/PauvJg-n' />
-<link rel="alternate" type="application/json+oembed" href="https://datamix.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatamix.co.jp%2Fblog%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://datamix.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatamix.co.jp%2Fblog%2F&#038;format=xml" />
-<!-- Markup (JSON-LD) structured in schema.org ver.4.1.8 START -->
+<link rel='shortlink' href='https://datamix.co.jp/?p=999' />
+<link rel="alternate" type="application/json+oembed" href="https://datamix.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatamix.co.jp%2Frecruit%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://datamix.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdatamix.co.jp%2Frecruit%2F&#038;format=xml" />
+<style type="text/css">
+            .fvch-codeblock {
+                background: #2e2e2d !important;
+                background-position-y: 4px !important;
+            }
+            .fvch-codeblock pre, .fvch-line-number {
+                line-height: 1.5em !important;
+                font-family: 'Monaco', 'Courier New', Courier, monospace !important;
+                font-size: 0.8em !important;
+            }
+        </style>
+        <meta name="generator" content="FV Code Highlighter - https://frankverhoeven.me/"><!-- Markup (JSON-LD) structured in schema.org ver.4.1.8 START -->
 <script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -1609,30 +1623,14 @@ img.emoji {
             "@type": "ListItem",
             "position": 2,
             "item": {
-                "@id": "https://datamix.co.jp/blog/",
-                "name": "BLOG"
+                "@id": "https://datamix.co.jp/recruit/",
+                "name": "採用情報"
             }
         }
     ]
 }
 </script>
 <!-- Markup (JSON-LD) structured in schema.org END -->
-
-<link rel='dns-prefetch' href='//v0.wordpress.com'/>
-<link rel='dns-prefetch' href='//i0.wp.com'/>
-<link rel='dns-prefetch' href='//i1.wp.com'/>
-<link rel='dns-prefetch' href='//i2.wp.com'/>
-<style type='text/css'>img#wpstats{display:none}</style>			<style type="text/css">
-				html:not( .jetpack-lazy-images-js-enabled ) .jetpack-lazy-image {
-					display: none;
-				}
-			</style>
-			<script>
-				document.documentElement.classList.add(
-					'jetpack-lazy-images-js-enabled'
-				);
-			</script>
-		<style type="text/css" id="syntaxhighlighteranchor"></style>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
@@ -1668,14 +1666,24 @@ jQuery(function(){
 });
 </script>
 	
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-ND9M7C5');</script>
+<!-- End Google Tag Manager -->
+	
 <!-- Treasure Data -->
 <script type="text/javascript">
 !function(t,e){if(void 0===e[t]){e[t]=function(){e[t].clients.push(this),this._init=[Array.prototype.slice.call(arguments)]},e[t].clients=[];for(var r=function(t){return function(){return this["_"+t]=this["_"+t]||[],this["_"+t].push(Array.prototype.slice.call(arguments)),this}},s=["blockEvents","unblockEvents","setSignedMode","setAnonymousMode","resetUUID","addRecord","fetchGlobalID","set","trackEvent","trackPageview","trackClicks","ready","fetchUserSegments"],n=0;n<s.length;n++){var c=s[n];e[t].prototype[c]=r(c)}var o=document.createElement("script");o.type="text/javascript",o.async=!0,o.src=("https:"===document.location.protocol?"https:":"http:")+"//cdn.treasuredata.com/sdk/2.1/td.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(o,a)}}("Treasure",this);
 </script>
-	
+<!-- Global site tag (gtag.js) - Google Ads: 685073848 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-685073848"></script>
+<script> window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());  gtag('config', 'AW-685073848');</script>	
 </head>
 
-<body class="page-template page-template-templates page-template-blog page-template-templatesblog-php page page-id-23">
+<body class="page-template page-template-templates page-template-recruit page-template-templatesrecruit-php page page-id-999 elementor-default">
 
   <header>
 
@@ -1769,20 +1777,21 @@ jQuery(function(){
 </svg>        </a>
         <div class="menu-main-container"><ul id="menu-main" class="cf"><li id="menu-item-1024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1024"><a href="#">スクール<span>SCHOOL</span></a>
 <ul class="sub-menu">
-	<li id="menu-item-2345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2345"><a href="https://datamix.co.jp/data-scientist/">データサイエンティスト育成コース</a></li>
+	<li id="menu-item-4332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4332"><a href="https://datamix.co.jp/data-scientist/">データサイエンティスト育成コース</a></li>
 	<li id="menu-item-2282" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2282"><a href="https://datamix.co.jp/introductory-data-scientist-course/">データサイエンティスト準備ステップ</a></li>
+	<li id="menu-item-3932" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3932"><a href="https://datamix.co.jp/tdi-course/">英語プログラム- Essential Tools</a></li>
 </ul>
 </li>
 <li id="menu-item-1368" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1368"><a href="https://datamix.co.jp/for-employer/">人材紹介<span>For Employer</span></a></li>
 <li id="menu-item-1005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1005"><a href="https://datamix.co.jp/for-company/">法人向けサービス<span>For Company</span></a></li>
-<li id="menu-item-1026" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-1026"><a href="#">ニュース<span>NEWS</span></a>
+<li id="menu-item-1026" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1026"><a href="#">ニュース<span>NEWS</span></a>
 <ul class="sub-menu">
 	<li id="menu-item-1027" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1027"><a href="/news">ニュース</a></li>
-	<li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-1028"><a href="https://datamix.co.jp/blog/">ブログ</a></li>
 	<li id="menu-item-1317" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1317"><a href="/event">イベント</a></li>
 </ul>
 </li>
-<li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1029"><a href="https://datamix.co.jp/recruit/">採用情報<span>recruit</span></a></li>
+<li id="menu-item-4015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4015"><a href="https://datamix.co.jp/faq/">FAQ<span>FAQ</span></a></li>
+<li id="menu-item-1029" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-999 current_page_item menu-item-1029"><a href="https://datamix.co.jp/recruit/">採用情報<span>recruit</span></a></li>
 <li id="menu-item-1030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1030"><a href="https://datamix.co.jp/company/">会社概要<span>about us</span></a></li>
 </ul></div>
       </nav>
@@ -1813,75 +1822,240 @@ jQuery(function(){
 
   </header>
 <div id="wrapper">
-
+<link rel="stylesheet" href="https://datamix.co.jp/test/wp-content/themes/datamix-new/css/recruit.css">
 <div class="top_label">
   <div>
-    <h1>ブログ</h1>
-    <h3 class="roboto uppercase">Blog</h3>
+    <h1>採用情報</h1>
+    <p class="roboto uppercase">RECRUIT</p>
   </div>
 </div>
 <div class="content_section">
-  <p class="breadcrumb"><a href="https://datamix.co.jp/">HOME</a> &gt; <a href="https://datamix.co.jp/blog/">ブログ</a></p>
+  <p class="breadcrumb"><a href="https://datamix.co.jp/">HOME</a> &gt; <a href="https://datamix.co.jp/recruit/">採用情報</a></p>
 </div>
 
+<div class="page-template-blog" style="border-bottom: 1px solid #d4eaf6;">
 <div class="blogs content_section cf">
-  <article>
+  <div class="upper">
+    <p>私たちデータミックスは、「データサイエンスを当たり前に」することで、データの活用を促し、より良い社会を実現したいと本気で考えています。データミックスはそんな未来を一緒に創っていける仲間に出会えるのを楽しみにしています。</p>
+  </div>
 
-<div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20191002/"><img src="https://i1.wp.com/datamix.co.jp/test/wp-content/uploads/2019/10/DSC_1742_2.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.10.02</b></div><div><a href="https://datamix.co.jp/category/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/" class="a-style-4">イベント</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div></div><h3><a href="https://datamix.co.jp/blogpost20191002/" class="a-style-4">関西STEM教育EXPOに出展しました</a></h3><div class="outline"><p>2019年9月25日（水）〜9月27日（金）の3日間にわたり、大阪で開催された第1回関西STEM教育EXPOに出展しました。</p>
-<p>インテックス大阪という国際展示場にて、データミックスとしては初の関西開催の展示会への出展となりました。</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20191002-2/"><img src="https://i1.wp.com/datamix.co.jp/test/wp-content/uploads/2019/10/20191001_110744-1-e1569983972531.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.10.02</b></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%8e%a1%e7%94%a8/" class="a-style-4">採用</a></div></div><h3><a href="https://datamix.co.jp/blogpost20191002-2/" class="a-style-4">2020卒　新卒採用　内定式を実施しました</a></h3><div class="outline"><p>10月1日、データミックス の新卒第一期生となる20年卒の内定式を開催しました。</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190808-2/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2019/08/DSCN0059-1.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.08.08</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190808-2/" class="a-style-4">～データサイエンティスト育成コース～2019年1月入学(第8期生)卒業発表会</a></h3><div class="outline"><p>2019年7月21日（日）に、データサイエンティスト育成コース2019年1月入学（第8期生）の卒業発表＆打ち上げパーティーを開催しました！</p>
-<p>データミックスで6ヶ月間にわたり学習した成果を、過去の卒業生や現役受講生、企業の方々など総勢90名を超えるみなさまの前で、発表しました。</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190725/"><img src="https://i2.wp.com/datamix.co.jp/test/wp-content/uploads/2019/07/DSCN0346.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.07.25</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e7%a6%8f%e5%b2%a1/" class="a-style-4">福岡</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190725/" class="a-style-4">〜データサイエンティスト育成コース福岡校〜　第1期卒業発表会</a></h3><div class="outline"><p>2019年7月6日（土）に、データサイエンティスト育成コース福岡校2019年1月入学（第1期生！）の卒業発表会を開催いたしました。</p>
-<p>初の福岡校の受講生として、これまでデータミックスで6ヶ月間にわたり学ばれた成果を、福岡の地で発表していただきました。その模様をお届けします。</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190123-2/"><img src="https://i1.wp.com/datamix.co.jp/test/wp-content/uploads/2019/05/DSCN0256.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.05.10</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190123-2/" class="a-style-4">～データサイエンティスト育成コース～2018年10月入学(第7期生)卒業発表会</a></h3><div class="outline"><p>2019年4月14日（日）に、データサイエンティスト育成コース2018年10月入学（第7期生）の卒業発表＆打ち上げパーティーを開催しました！</p>
-<p>これまでデータミックスで6ヶ月間にわたり学ばれた成果を、過去の卒業生や現役受講生、企業の方々など総勢90名を超えるみなさまの前で、発表していただきました。</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190423/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2019/04/DSCN0014.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.04.23</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190423/" class="a-style-4">2019年4月期（第9期）データサイエンティスト育成コース開講！</a></h3><div class="outline"><p>4月6日（土）に、2019年4月期データサイエンティスト育成コースの懇親会を開催しました。その模様をお届けします！</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190320/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2017/05/datamix_ogp.png?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.03.20</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div><div><a href="https://datamix.co.jp/category/machine_learning/" class="a-style-4">機械学習</a></div><div><a href="https://datamix.co.jp/category/statistics/" class="a-style-4">統計学</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190320/" class="a-style-4">データサイエンティスト育成コース【体験クラス＆無料説明会】を開催しました！</a></h3><div class="outline"><p>2月28日（木）に、データサイエンティスト育成コース【体験クラス＆無料説明会】を開催しました。その模様をお届けします！</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190221/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2017/05/datamix_ogp.png?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.02.21</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190221/" class="a-style-4">データサイエンティスト育成コース【体験クラス&無料説明会】を実施します！</a></h3><div class="outline"><p>データサイエンティスト育成コース【体験クラス&amp;無料説明会】を実施します！！！</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/20190201/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2017/05/datamix_ogp.png?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.02.01</b></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div></div><h3><a href="https://datamix.co.jp/20190201/" class="a-style-4">データミックスは3期目に突入しました！</a></h3><div class="outline"><p>2017年2月に設立以来丸2年が経過し、データサイエンティスト育成スクールやビッグデータ分析コンサルティング、データサイエンス領域に特化した人材紹介サービスなどサービスを拡充しつつ、データミックスも3期目に突入しました！</p>
-</div><div class="tags"></div></div></div><div class="blogs-blog cf"><div class="blogs-blog-photo"><a href="https://datamix.co.jp/blogpost20190123/"><img src="https://i0.wp.com/datamix.co.jp/test/wp-content/uploads/2019/01/7jMkLooYSm2Rvc0vy0rXw_thumb_2.jpg?resize=600%2C450&ssl=1" alt=""></a></div><div class="blogs-blog-content"><div class="date cf"><div><b>2019.01.23</b></div><div><a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/" class="a-style-4">スクール</a></div><div><a href="https://datamix.co.jp/category/no-category/" class="a-style-4">ブログ</a></div><div><a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/" class="a-style-4">東京</a></div></div><h3><a href="https://datamix.co.jp/blogpost20190123/" class="a-style-4">～データサイエンティスト育成コース～2018年7月入学(第6期生)卒業発表会</a></h3><div class="outline"><p>2019年1月14日（月・祝）に、データサイエンティスト育成コース2018年7月入学（第6期生）の卒業発表＆打ち上げパーティーを開催しました！</p>
-<p>これまでデータミックスで6ヶ月間にわたり学ばれた成果を、過去の卒業生や現役受講生、企業の方々など総勢90名を超えるみなさまの前で、発表していただきました。</p>
-</div><div class="tags"></div></div></div>
-  <div class="pagination cf"><div><span>1</span><a class="a-style-4" href="https://datamix.co.jp/blog/?page=2">2</a><a class="a-style-4" href="https://datamix.co.jp/blog/?page=3">3</a></div></div>
-  </article>
+  <div class="message-area">
+    <div class="content_section_instructor default_page_fontsize">
+      <h2 class="page_sub_title blue">メンバーからのメッセージ</h2>
+      <p class="page_main_title blue roboto uppercase"><b>Message</b></p>
+      <div class="instrucors_box cf">
+      <ul class="instructors_main">
+          <li data-card="1" class="on">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2017/04/d_instructor_katada02-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">堅田 洋資<br>
+                  <span>Yosuke Katada</span></h3>
+          <p class="inst_role">ブートキャンプステップ、ベーシックステップ、アドバンスステップ「レコメンデーション」クラス</p>
+                  <p>代表取締役社長<br />
+データサイエンティスト<br />
+<br />
+データミックスではクライアントの課題を自分事だと捉え、技術的に難易度の高い課題にチャレンジすることを奨励しています。受講生・卒業生の皆さんやクライアント、そしてメンバーと一緒に成長していきたい方の応募をお待ちしています。</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="2">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/10/20180415-2435-e1540443636597-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">石井ゆり香<br>
+                  <span>Yurika Ishii</span></h3>
+          <p class="inst_role">マネージャー</p>
+                  <p>大学卒業後、メーカー、広告制作会社、システムコンサルティング会社で経理を担当。2018年よりデータミックスに参画。<br />
+<br />
+いろいろな経験を積みたい方、スピード感を持って前向きに仕事に取り組みたい方のご応募をお待ちしています。一緒に会社を盛り上げていきましょう！<br />
+</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="3">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2017/10/recruit_miyoshi01-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">三好大悟<br>
+                  <span>Daigo Miyoshi</span></h3>
+          <p class="inst_role">データサイエンティスト</p>
+                  <p>慶応義塾大学理工学部管理工学科　卒業<br />
+<br />
+データサイエンティストは、やる気と熱意が一番大事だと感じています。私自身まだまだ未熟ですが、良きライバルとなって切磋琢磨できる方・仕事に全力投球できる方と仕事ができたらと思います！一緒にデータミックスを日本一のデータサイエンティスト集団にしましょう！</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="4">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4728-e1545289354704-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">渡部孝一<br>
+                  <span>Koichi Watabe</span></h3>
+          <p class="inst_role">人事マネージャー</p>
+                  <p>エンジニアからキャリアをスタートし、コンサルティングファーム 、IT企業にて、採用、育成、制度、組織開発、労務と幅広く人材マネジメントに従事。２０１８年よりデータミックスに参画。<br />
+当社のミッションビジョンに共感し、「データサイエンス」という新しい市場を一緒に創り上げるパイオニア精神をお持ちの方、ご応募お待ちしております！<br />
+</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="5">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4856-e1545289569276-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">清水嵩文<br>
+                  <span>Takafumi Shimizu</span></h3>
+          <p class="inst_role">データ分析コンサルタント</p>
+                  <p>前職ではベンチャー企業でインターネット広告の営業をし、2018年からデータミックスに参画。<br />
+データミックスにはスタートアップならではの自由があるので、自分らしく働きたい人にあってると思います！<br />
+一緒にデータサイエンスを楽しんで、学んで、活用していきましょう！</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="6">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4741-e1545289322125-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">亀岡瑶<br>
+                  <span>Yo Kameoka</span></h3>
+          <p class="inst_role">データ分析コンサルタント</p>
+                  <p>食品CROにて統計解析職に従事、2018年データミックスに参画。<br />
+データミックスでは、教育事業とコンサルティング事業を通じて、確かな知識とスキルを身につけることができます！<br />
+スピード感がある環境で、共に刺激し成長していける方をお待ちしています！</p>
+                </div>
+              </div>
+          </div>
+        </li>
+          <li data-card="7">
+          <div class="gradient"></div>
+          <div class="instructors_detail">
+            <div class="img_wrapper"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4904-e1545292200368-390x491.jpg" alt=""></div>
+              <div class="text_wrapper">
+                <div class="position">
+                <h3 class="name-inst">高橋由佳<br>
+                  <span>Yuka Takahashi</span></h3>
+          <p class="inst_role">スクール運営 サービス＆アクイジション担当</p>
+                  <p>ブライダル業界を経て、IT企業・広報担当責任者などのマネジメント業務に従事。2018年からデータミックスに参画。<br />
+<br />
+仕事を全力で楽しみながら、切磋琢磨しあう私たちです。<br />
+受講生・卒業生の皆さんとのコミュニケーションからも、たくさんのことを学べます。<br />
+データミックスを一緒に盛り上げてくれる方、ご応募お待ちしております。<br />
+<br />
+</p>
+                </div>
+              </div>
+          </div>
+        </li>
+        </ul>
+      <ul class="instructors_sub cf">
+                <li data-thumbnail="1"><img src="https://datamix.co.jp/test/wp-content/uploads/2017/04/d_instructor_katada02-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="2"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/10/20180415-2435-e1540443636597-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="3"><img src="https://datamix.co.jp/test/wp-content/uploads/2017/10/recruit_miyoshi01-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="4"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4728-e1545289354704-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="5"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4856-e1545289569276-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="6"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4741-e1545289322125-125x168.jpg" alt=""></li>
+                     <li data-thumbnail="7"><img src="https://datamix.co.jp/test/wp-content/uploads/2018/12/20181021_4904-e1545292200368-125x168.jpg" alt=""></li>
+                 </ul>
+    </div>
+    </div>
+  </div>
 
-  <aside class="InViewSection decoline">
-    <ul class="a-style-6">
-      
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/no-category/">ブログ</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab/">スクール</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e6%9d%b1%e4%ba%ac/">東京</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e8%ac%9b%e6%bc%94/">講演</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e7%a6%8f%e5%b2%a1/">福岡</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/machine_learning/">機械学習</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/statistics/">統計学</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/python/">Python</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/">イベント</a>  
-      </li>
-      <li class="icon-circle-right">
-        <a href="https://datamix.co.jp/category/%e6%8e%a1%e7%94%a8/">採用</a>  
-      </li>
-    </ul>
-  </aside>
 </div>
+</div>
+
+
+<div class="content_section page-template-company">
+<div class="company-recruit">
+  <h2 class="page_sub_title blue">採用情報</h2>
+  <p class="page_main_title blue roboto uppercase"><b>Recruit</b></p>
+
+  <div class="wantedly content_section cf">
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/91659/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/110548/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/260266/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/217897/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/311975/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/409755/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/409750/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/399566/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/415750/widget"></iframe>
+    </div>
+    <div>
+      <iframe frameborder="0" scrolling="no" src="https://www.wantedly.com/projects/415757"></iframe>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="blog-area">
+<div class="wrap">
+<h2 class="page_sub_title blue">ブログ</h2>
+<p class="page_main_title blue roboto uppercase"><b>Blog</b></p>
+<div class="inner">
+<ul class="clearfix">
+<li class="clearfix">
+<div class="image"><img src="https://datamix.co.jp/test/wp-content/uploads/2020/02/DSC04901-e1581986270347-140x140.jpg" alt=""></div>
+<h3 class="h4"><span class="date">2020.02.17</span><a href="https://datamix.co.jp/interview-fujita-coo/">「データサイエンスはMBA以上の武器になる」- データミックスCOO藤田</a></h3>
+</li>
+<li class="clearfix">
+<div class="image"><img src="https://datamix.co.jp/test/wp-content/uploads/2020/02/4432c5645dbce8524c751750ac89e05b-140x140.jpg" alt=""></div>
+<h3 class="h4"><span class="date">2020.02.14</span><a href="https://datamix.co.jp/dtst_shimizu/">清水 嵩文_データサイエンティスト育成のフロンティア_インストラクター紹介</a></h3>
+</li>
+<li class="clearfix">
+<div class="image"><img src="https://datamix.co.jp/test/wp-content/uploads/2020/02/Screen-Shot-2020-02-07-at-19.00.18-140x140.png" alt=""></div>
+<h3 class="h4"><span class="date">2020.02.06</span><a href="https://datamix.co.jp/blog-what-is-data-science/">データサイエンス（Data Science）とは？</a></h3>
+</li>
+<li class="clearfix">
+<div class="image"><img src="https://datamix.co.jp/test/wp-content/uploads/2020/02/n_23ku_2019-140x140.png" alt=""></div>
+<h3 class="h4"><span class="date">2020.02.04</span><a href="https://datamix.co.jp/blog-taiki-jidou/">保育園に入りやすい区はどこ？ 〜２３区別「待機児童の状況」の変化〜</a></h3>
+</li>
+</ul>
+</div>
+<div class="home-news">
+<div class="content_section">
+<div class="single">
+<div class="button_hvr yellow"><a href="/blog" class="hvr-shutter-out-horizontal"><span class="icon-box3"><b>もっと見る</b></span></a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 
 <footer>
 <div>
@@ -1934,12 +2108,12 @@ jQuery(function(){
       <div class="ft_r">
        <nav class="a-footer">
         <div class="menu-ftm_new-container"><ul id="menu-ftm_new" class="cf"><li id="menu-item-1039" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1039"><a href="/news">ニュース</a></li>
-<li id="menu-item-980" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-23 current_page_item menu-item-980"><a href="https://datamix.co.jp/blog/">ブログ</a></li>
+<li id="menu-item-4016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4016"><a href="https://datamix.co.jp/faq/">スクールに関するFAQ</a></li>
 </ul></div>      </nav>
       <nav class="a-footer">
         <div class="menu-footer-container"><ul id="menu-footer" class="cf"><li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54"><a href="https://datamix.co.jp/company/">会社概要</a></li>
 <li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://datamix.co.jp/terms-of-service/">利用規約</a></li>
-<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://datamix.co.jp/privacy-policy/">個人情報保護方針</a></li>
+<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="https://datamix.co.jp/privacy-policy/">プライバシーポリシー</a></li>
 <li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51"><a href="https://datamix.co.jp/act-on-specified-commercial-transaction/">特定商取引法に基づく表記</a></li>
 <li id="menu-item-146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-146"><a href="https://datamix.co.jp/form/">お問い合わせ</a></li>
 </ul></div>      </nav>
@@ -2088,33 +2262,33 @@ $(window).on('load resize', function(){
 });
 
 </script>
+
     <script>
+	  /*
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create','UA-99319144-1','auto');ga('send','pageview');
+  ga('create','UA-99319144-1','auto');
+  ga('linker:autoLink', ['datamix.co.jp','datamix-info.resv.jp']);
+  ga('send','pageview');
+      */
   </script>
   
-  	<div style="display:none">
-	</div>
-<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20130122'></script>
-<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201941'></script>
-<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2019Octaa'></script>
-<script type='text/javascript'>
+  <script type='text/javascript'>
 /* <![CDATA[ */
-var WPGroHo = {"my_hash":""};
+var codePrettifyLoaderBaseUrl = "https:\/\/datamix.co.jp\/test\/wp-content\/plugins\/code-prettify\/prettify";
 /* ]]> */
 </script>
-<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.9.3'></script>
-<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=6.8'></script>
-<script type='text/javascript' src='https://datamix.co.jp/test/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
-<script type='text/javascript' src='https://stats.wp.com/e-201941.js' async='async' defer='defer'></script>
+<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/code-prettify/prettify/run_prettify.js?ver=1.4.0'></script>
 <script type='text/javascript'>
-	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:6.8',blog:'155035170',post:'23',tz:'9',srv:'datamix.co.jp'} ]);
-	_stq.push([ 'clickTrackerInit', '155035170', '23' ]);
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/datamix.co.jp\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
 </script>
+<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.5'></script>
+<script type='text/javascript' src='https://datamix.co.jp/test/wp-content/plugins/youtube-embed-plus/scripts/fitvids.min.js?ver=13.1.2.5'></script>
+<script type='text/javascript' src='https://datamix.co.jp/test/wp-includes/js/wp-embed.min.js?ver=4.9.3'></script>
 
 
 

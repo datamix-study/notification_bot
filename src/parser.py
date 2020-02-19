@@ -46,11 +46,11 @@ class DataMixMediaParser(AbstractParser):
 class DataMixBlogParser(AbstractParser):
     def extract_article_urls(self, text: str) -> List[ParseResult]:
         soup = BeautifulSoup(text, "html.parser")
-        article_div_contents = soup.select('#wrapper > div.blogs.content_section.cf > article > div')
+        article_div_contents = soup.select('#wrapper > div.blog-area > div > div.inner > ul > li')
 
         results = []
         for content in article_div_contents:
-            a_tag = content.select_one('div.blogs-blog-content > h3 > a')
+            a_tag = content.select_one('h3 > a')
             if not a_tag:
                 continue
             results.append(ParseResult(a_tag.attrs['href'], {'title': a_tag.text}))

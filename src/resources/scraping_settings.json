@@ -2,6 +2,8 @@
     "DataMixInformationParser": {
         "access_url": "https://datamix.co.jp/news/",
         "last_article_urls": [
+            "https://datamix.co.jp/news/seminar-202002_03/",
+            "https://datamix.co.jp/news/2020_04_datascience/",
             "https://datamix.co.jp/news/20191202/",
             "https://datamix.co.jp/news/%e3%83%87%e3%83%bc%e3%82%bf%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%82%b9%e7%84%a1%e6%96%99%e3%82%bb%e3%83%9f%e3%83%8a%e3%83%bc%e3%82%92%e9%96%8b%e5%82%ac%e3%81%97%e3%81%be%e3%81%99%ef%bc%882019/",
             "https://datamix.co.jp/news/20191118-2/",
@@ -9,9 +11,7 @@
             "https://datamix.co.jp/news/20191115nikkei/",
             "https://datamix.co.jp/news/20191010/",
             "https://datamix.co.jp/news/3551/",
-            "https://datamix.co.jp/news/20191002/",
-            "https://datamix.co.jp/news/20190919/",
-            "https://datamix.co.jp/news/20190910/"
+            "https://datamix.co.jp/news/20191002/"
         ],
         "do_notify_empty": 1,
         "message_template": "データミックスのお知らせが更新されました [{0[title]}] {0[url]}"
@@ -29,18 +29,12 @@
         "message_template": "データミックスのメディア掲載が更新されました [{0[title]}] {0[url]}"
     },
     "DataMixBlogParser": {
-        "access_url": "https://datamix.co.jp/blog/",
+        "access_url": "https://datamix.co.jp/recruit/",
         "last_article_urls": [
-            "https://datamix.co.jp/20191129-2/",
-            "https://datamix.co.jp/20191127-2/",
-            "https://datamix.co.jp/blogpost20191118/",
-            "https://datamix.co.jp/blogpost20191002/",
-            "https://datamix.co.jp/blogpost20191002-2/",
-            "https://datamix.co.jp/blogpost20190808-2/",
-            "https://datamix.co.jp/blogpost20190725/",
-            "https://datamix.co.jp/blogpost20190123-2/",
-            "https://datamix.co.jp/blogpost20190423/",
-            "https://datamix.co.jp/blogpost20190320/"
+            "https://datamix.co.jp/interview-fujita-coo/",
+            "https://datamix.co.jp/dtst_shimizu/",
+            "https://datamix.co.jp/blog-what-is-data-science/",
+            "https://datamix.co.jp/blog-taiki-jidou/"
         ],
         "do_notify_empty": 1,
         "message_template": "データミックスのブログが更新されました [{0[title]}] {0[url]}"
@@ -48,7 +42,7 @@
     "MeetupApiParser": {
         "access_url": "https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20",
         "last_article_urls": [
-            "https://www.meetup.com/datamix/events/267017287/"
+            "https://www.meetup.com/datamix/events/268013150/"
         ],
         "do_notify_empty": 0,
         "message_template": "meetupにイベントが追加されました [{0[title]}] {0[url]}"

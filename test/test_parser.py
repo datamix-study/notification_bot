@@ -106,37 +106,21 @@ class TestDataMixBlogParser(TestParser):
         pass
 
     def test_extract_article_urls_when_parsable_source_then_parse_results(self):
-        expected0 = ParseResult('https://datamix.co.jp/blogpost20191002/', {'title': '関西STEM教育EXPOに出展しました'})
-        expected1 = ParseResult('https://datamix.co.jp/blogpost20191002-2/',
-                                {'title': '2020卒\u3000新卒採用\u3000内定式を実施しました'})
-        expected2 = ParseResult('https://datamix.co.jp/blogpost20190808-2/',
-                                {'title': '～データサイエンティスト育成コース～2019年1月入学(第8期生)卒業発表会'})
-        expected3 = ParseResult('https://datamix.co.jp/blogpost20190725/',
-                                {'title': '〜データサイエンティスト育成コース福岡校〜\u3000第1期卒業発表会'})
-        expected4 = ParseResult('https://datamix.co.jp/blogpost20190123-2/',
-                                {'title': '～データサイエンティスト育成コース～2018年10月入学(第7期生)卒業発表会'})
-        expected5 = ParseResult('https://datamix.co.jp/blogpost20190423/',
-                                {'title': '2019年4月期（第9期）データサイエンティスト育成コース開講！'})
-        expected6 = ParseResult('https://datamix.co.jp/blogpost20190320/',
-                                {'title': 'データサイエンティスト育成コース【体験クラス＆無料説明会】を開催しました！'})
-        expected7 = ParseResult('https://datamix.co.jp/blogpost20190221/',
-                                {'title': 'データサイエンティスト育成コース【体験クラス&無料説明会】を実施します！'})
-        expected8 = ParseResult('https://datamix.co.jp/20190201/', {'title': 'データミックスは3期目に突入しました！'})
-        expected9 = ParseResult('https://datamix.co.jp/blogpost20190123/',
-                                {'title': '～データサイエンティスト育成コース～2018年7月入学(第6期生)卒業発表会'})
+        expected0 = ParseResult('https://datamix.co.jp/interview-fujita-coo/',
+                                {'title': '「データサイエンスはMBA以上の武器になる」- データミックスCOO藤田'})
+        expected1 = ParseResult('https://datamix.co.jp/dtst_shimizu/',
+                                {'title': '清水 嵩文_データサイエンティスト育成のフロンティア_インストラクター紹介'})
+        expected2 = ParseResult('https://datamix.co.jp/blog-what-is-data-science/',
+                                {'title': 'データサイエンス（Data Science）とは？'})
+        expected3 = ParseResult('https://datamix.co.jp/blog-taiki-jidou/',
+                                {'title': '保育園に入りやすい区はどこ？ 〜２３区別「待機児童の状況」の変化〜'})
 
         actual = self.sut.extract_article_urls(test_parser_helper.DATAMIX_BLOG_SOURCE)
-        self.assertEqual(10, len(actual))
+        self.assertEqual(4, len(actual))
         self.assertEqual(expected0, actual[0])
         self.assertEqual(expected1, actual[1])
         self.assertEqual(expected2, actual[2])
         self.assertEqual(expected3, actual[3])
-        self.assertEqual(expected4, actual[4])
-        self.assertEqual(expected5, actual[5])
-        self.assertEqual(expected6, actual[6])
-        self.assertEqual(expected7, actual[7])
-        self.assertEqual(expected8, actual[8])
-        self.assertEqual(expected9, actual[9])
 
     def test_extract_article_urls_when_empty_source_then_empty(self):
         actual = self.sut.extract_article_urls('')
