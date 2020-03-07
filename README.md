@@ -101,13 +101,11 @@ TODO: incoming_webhookを想定、手順を書くかリンクを貼るなどす�
 
 #### google sheets認証キーを取得
 1. APIとサービス > ライブラリ
-1. Google Drive APIを探して有効にする
-1. APIとサービス > ライブラリ
 1. Google Sheets APIを探して有効にする
 1. APIとサービス > 認証情報
-1. 認証情報を作成 > サービスアカウントキー
-1. 新しいサービスアカウント > (入力) > キーのタイプをJSONにする > 作成
-    - サービスアカウント名はgoogle-sheetsなど適当に入寮
+1. 認証情報を作成 > サービスアカウント
+1. 新しいサービスアカウント > (入力) > キーの作成(json)
+    - サービスアカウント名はgoogle-sheetsなど適当に入力
     - 役割はproject > 編集者
     - **ダウンロードしたXXX.jsonは外部に公開しないこと**
 1. ダウンロードされたXXX.jsonを`src/resources`に移動
@@ -134,7 +132,7 @@ TODO: incoming_webhookを想定、手順を書くかリンクを貼るなどす�
     | **5** | MeetupApiParser | https://api.meetup.com/datamix/events?&sign=true&photo-host=public&page=20 |  | 0 | meetupにイベントが追加されました [{0[title]}] {0[url]} |
 1. 作成したシートをコピーして同ファイル内に計2つのシートを持つようにする
     - シート名は手順書ではprodシートとする → dev, prodシートがある
-1. シート右上の共有
+1. シート右上の共有を選択
 1. XXX.jsonの`client_email`行のコロン以下のダブルクォーテーション内を入力し、編集者権限で完了
     - `hoge@foo.iam.gserviceaccount.com` のような文字列
 
